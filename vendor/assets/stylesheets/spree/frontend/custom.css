@@ -1,0 +1,56 @@
+.header_phone{
+	position: absolute;
+	top: 106px;
+	right: 0;
+	font-weight: bold;
+	font-size: 20px;
+	color: orange;
+}
+ul#products li.product-row{
+	width:400px;
+}
+ul#products li .product-image {
+    background-color:rgb(241,241,212);
+}
+body ul#products li .product-image a {
+    border-color:rgb(153,0,3);
+}
+body .product-image a {
+    background-color:rgb(153,0,3);
+}
+.container .three.columns {
+width: 220px;
+}
+
+body ul#products {
+    max-width:initial;
+}
+body #subheader {
+	background-color: rgb(153,0,3);
+}
+body {
+  background-color: rgb(241,241,212);	
+  line-height: 19px;
+}
+.one-col {
+	padding-top: 0px;
+}
+
+ul#products li.product-row {
+width: inherit;
+}
+figure#logo img {
+padding-top: 0px;
+}
+
+nav#taxonomies .taxons-list li a {
+font-size: 17px;
+}
+
+ul#products li a.info {
+    font-size:17px;
+}
+/*removing button of price bar range*/
+aside#sidebar button {
+    display:none;
+}
