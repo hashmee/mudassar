@@ -9,6 +9,7 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
+  config.mails_from = "no-reply@steelworld.com"
   config.admin_interface_logo = 'logo/logo.png'
   config.logo = 'logo/logo.png'
 end
