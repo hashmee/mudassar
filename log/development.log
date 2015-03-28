@@ -26480,3 +26480,15 @@ Processing by Spree::StoreController#cart_link as */*
   Rendered /home/hashmi/.rvm/gems/ruby-2.1.2/gems/spree_frontend-2.3.4/app/views/spree/shared/_link_to_cart.html.erb (5.9ms)
   [1m[35mSpree::Order Load (1.2ms)[0m  SELECT  "spree_orders".* FROM "spree_orders"  WHERE "spree_orders"."completed_at" IS NULL AND "spree_orders"."currency" = 'INR' AND "spree_orders"."guest_token" = 'Smu6zZxcpkf5fsu6uum1XQ' AND "spree_orders"."user_id" IS NULL LIMIT 1 FOR UPDATE
 Completed 200 OK in 542ms (Views: 531.1ms | ActiveRecord: 2.8ms)
+  [1m[36mSpree::Preference Load (307.4ms)[0m  [1mSELECT  "spree_preferences".* FROM "spree_preferences"  WHERE "spree_preferences"."key" = 'spree/app_configuration/mails_from'  ORDER BY "spree_preferences"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (163.4ms)[0m  [1mUPDATE "spree_preferences" SET "updated_at" = $1, "value" = $2 WHERE "spree_preferences"."id" = 3[0m  [["updated_at", "2015-03-28 15:03:03.192678"], ["value", "--- no-reply@steelworld.com\n...\n"]]
+  [1m[35m (296.0ms)[0m  COMMIT
+  [1m[36mSpree::Preference Load (0.9ms)[0m  [1mSELECT  "spree_preferences".* FROM "spree_preferences"  WHERE "spree_preferences"."key" = 'spree/app_configuration/admin_interface_logo'  ORDER BY "spree_preferences"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "spree_preferences" SET "updated_at" = $1, "value" = $2 WHERE "spree_preferences"."id" = 1[0m  [["updated_at", "2015-03-28 15:03:04.093626"], ["value", "--- logo/logo.png\n...\n"]]
+  [1m[35m (329.6ms)[0m  COMMIT
+  [1m[36mSpree::Preference Load (0.7ms)[0m  [1mSELECT  "spree_preferences".* FROM "spree_preferences"  WHERE "spree_preferences"."key" = 'spree/app_configuration/logo'  ORDER BY "spree_preferences"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "spree_preferences" SET "updated_at" = $1, "value" = $2 WHERE "spree_preferences"."id" = 2[0m  [["updated_at", "2015-03-28 15:03:04.658873"], ["value", "--- logo/logo.png\n...\n"]]
+  [1m[35m (175.5ms)[0m  COMMIT
