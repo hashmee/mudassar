@@ -10,13 +10,13 @@ ul#products li.product-row{
 	width:400px;
 }
 ul#products li .product-image {
-    background-color:rgb(241,241,212);
+    background-color:#068587;
 }
 body ul#products li .product-image a {
-    border-color:rgb(153,0,3);
+    border-color:#FC5B3F;
 }
 body .product-image a {
-    background-color:rgb(153,0,3);
+    background-color: #fff;
 }
 .container .three.columns {
 width: 220px;
@@ -26,10 +26,10 @@ body ul#products {
     max-width:initial;
 }
 body #subheader {
-	background-color: rgb(153,0,3);
+	background-color: #068587;
 }
 body {
-  background-color: rgb(241,241,212);	
+  background-color: #fff;	
   line-height: 19px;
 }
 .one-col {
@@ -53,4 +53,8 @@ ul#products li a.info {
 /*removing button of price bar range*/
 aside#sidebar button {
     display:none;
+}
+
+body.one-col#default{
+	border-top-width: 0px;
 }
