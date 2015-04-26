@@ -26492,3 +26492,17 @@ Completed 200 OK in 542ms (Views: 531.1ms | ActiveRecord: 2.8ms)
   [1m[35m (0.2ms)[0m  BEGIN
   [1m[36mSQL (0.4ms)[0m  [1mUPDATE "spree_preferences" SET "updated_at" = $1, "value" = $2 WHERE "spree_preferences"."id" = 2[0m  [["updated_at", "2015-03-28 15:03:04.658873"], ["value", "--- logo/logo.png\n...\n"]]
   [1m[35m (175.5ms)[0m  COMMIT
+  [1m[36mSpree::Preference Load (274.0ms)[0m  [1mSELECT  "spree_preferences".* FROM "spree_preferences"  WHERE "spree_preferences"."key" = 'spree/app_configuration/mails_from'  ORDER BY "spree_preferences"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (23.4ms)[0m  [1mUPDATE "spree_preferences" SET "updated_at" = $1, "value" = $2 WHERE "spree_preferences"."id" = 3[0m  [["updated_at", "2015-04-26 10:03:37.885923"], ["value", "--- no-reply@steelworld.com\n...\n"]]
+  [1m[35m (105.4ms)[0m  COMMIT
+  [1m[36mSpree::Preference Load (0.7ms)[0m  [1mSELECT  "spree_preferences".* FROM "spree_preferences"  WHERE "spree_preferences"."key" = 'spree/app_configuration/admin_interface_logo'  ORDER BY "spree_preferences"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "spree_preferences" SET "updated_at" = $1, "value" = $2 WHERE "spree_preferences"."id" = 1[0m  [["updated_at", "2015-04-26 10:03:38.180130"], ["value", "--- logo/logo.png\n...\n"]]
+  [1m[35m (30.8ms)[0m  COMMIT
+  [1m[36mSpree::Preference Load (0.7ms)[0m  [1mSELECT  "spree_preferences".* FROM "spree_preferences"  WHERE "spree_preferences"."key" = 'spree/app_configuration/logo'  ORDER BY "spree_preferences"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "spree_preferences" SET "updated_at" = $1, "value" = $2 WHERE "spree_preferences"."id" = 2[0m  [["updated_at", "2015-04-26 10:03:38.243398"], ["value", "--- logo/logo.png\n...\n"]]
+  [1m[35m (34.4ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (661.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
