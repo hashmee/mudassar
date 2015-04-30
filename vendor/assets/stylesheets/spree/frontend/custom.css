@@ -58,3 +58,6 @@ aside#sidebar button {
 body.one-col#default{
 	border-top-width: 0px;
 }
+body#welcome-message{
+	display: none;
+}
