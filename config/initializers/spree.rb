@@ -43,6 +43,8 @@ Spree.config do |config|
   end
 
   
+
+  
 end
 
 Spree.user_class = 'Spree::User'
