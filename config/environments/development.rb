@@ -34,5 +34,15 @@ Rails.application.configure do
   config.assets.debug = false
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  # /config/environments/development.rb
+
+config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['s3_bucket'],
+    :access_key_id => ENV['s3_access_key_id'],
+    :secret_access_key => ENV['s3_secret_access_key']
+  }
+}
 
 end
