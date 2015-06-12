@@ -44,6 +44,7 @@ gem 'rails_12factor', group: :production
 group :production do
   gem 'thin'  
 end
+gem 'spree_fancy', github: 'spree/spree_fancy', :branch => '2-3-stable'
 gem 'spree_slider', github: 'priviterag/spree_slider'
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '2-3-stable'
 
